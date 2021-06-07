@@ -1,0 +1,11 @@
+"""
+メモ
+目標：前回に比べてfor文の使用量を減らす
+せっかくだからwhile文を使って、使い方を覚える
+"""
+def primenumber_another(start = 1, tagnum= 200):
+    while start < tagnum:
+     start += 1
+     print(start)
+
+primenumber_another()
